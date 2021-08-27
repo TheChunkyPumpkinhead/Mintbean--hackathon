@@ -16,9 +16,12 @@ export const Instructions = () => {
             <div className='instruc-sec' id='inst-sec4'>
                 <p>Use the arrows on your keyboard to move up, down, left or right!</p>
             </div>
-            <div>
+            <div className='instruc-sec' id='inst-sec5'>
                 <p>Eat as much food as you can!</p>
             </div>
+            <div className='instruc-sec' id='inst-sec5'>
+                <p>Avoid the walls and any part of your body or its game over.</p>
+            </div>  
         </div>
     )
 }
