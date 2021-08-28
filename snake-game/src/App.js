@@ -2,13 +2,16 @@ import "./App.css";
 import "./container/Description.css";
 import Header from "./container/Header";
 import MainContainer from "./container/MainContainer";
+import Footer from "./container/Footer";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <MainContainer />
-      <footer>Snake game created by Jesus and Chris</footer>
+    <div className="page-container">
+      <div className="content-wrap">
+        <Header />
+        <MainContainer />
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.main-footer {
+  display: flex;
+  color: white;
+  background-color: lightcoral;
+  padding-top: 3cm;
+  position: center;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
