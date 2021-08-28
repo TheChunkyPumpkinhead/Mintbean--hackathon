@@ -5,8 +5,15 @@ import MainContainer from "./container/MainContainer";
 import Footer from "./container/Footer";
 
 function App() {
+  function clickMe() {
+    alert("clicked");
+  }
   return (
     <div className="page-container">
+      <div>
+        <button onClick={clickMe}>button</button>
+      </div>
+
       <div className="content-wrap">
         <Header />
         <MainContainer />
@@ -15,5 +22,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
