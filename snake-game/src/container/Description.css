@@ -1,13 +1,17 @@
 .flexbox-container {
   display: flex;
   justify-content: space-around;
+  background: url(../Pictures/game.png);
 }
 .flexbox-item {
+  display: flex;
+  flex-direction: column;
   width: 200px;
   margin: 10px;
-  border: 3px solid rgb(231, 11, 11);
-  background-color: #dfdfdf;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  background-color: #f5eeee;
 }
 
 .flexbox-item-1 {
@@ -17,8 +21,7 @@
 .flexbox-item-2 {
   min-height: 100px;
 }
-
-.flexbox-item-3 {
+s .flexbox-item-3 {
   min-height: 100px;
 }
 

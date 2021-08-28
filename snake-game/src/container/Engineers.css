@@ -3,26 +3,43 @@
   justify-content: space-around;
 }
 .flexbox-item {
-  display: flex;
+  /* display: flex;
+  flex-direction: column;
   width: 200px;
   margin: 10px;
   justify-content: center;
   align-items: center;
   border: 3px solid red;
-  background-color: #dfdfdf;
+  background-color: #dfdfdf; */
 }
 
-.flexbox-item-1 {
-}
-
-.flexbox-item-2 {
-  min-height: 100px;
+.flexbox-text {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 10px;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  background-color: #f5eeee;
+  border-radius: 25px;
 }
 
 .flexbox-item-3 {
-  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 10px;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  background-color: #f5eeee;
+  border-radius: 25px;
 }
 
-.flexbox-item-4 {
-  min-height: 100px;
+.item {
+  height: 15em;
+  width: auto;
 }

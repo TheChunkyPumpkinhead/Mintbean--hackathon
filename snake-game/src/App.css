@@ -1,55 +1,60 @@
-.app-container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-flow: column;
-    justify-content: center; 
-    min-height: 100vh;
-    align-items: center;
-    gap: 25px;
+.background {
+  background: url(./Pictures/game.png);
+  background-size: cover;
 }
 
-.instructions-cont{
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
-    padding: 50px;
-    gap: 25px;
+.app-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  gap: 25px;
 }
 
-.instruction-sec{
-    flex: 30%;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    border: solid;
-    border-radius: 25px;
-    flex: 1;
+.instructions-cont {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  padding: 50px;
+  gap: 25px;
 }
 
-.header-cont{
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: lightcoral;
+.instruction-sec {
+  flex: 30%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border: solid;
+  border-radius: 25px;
+  flex: 1;
 }
 
-.link-cont{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
+.header-cont {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightcoral;
 }
 
-.logo{
-    margin-top: 25px;
-    width: 100px;
-    height: auto;
+.link-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.logo {
+  margin-top: 25px;
+  width: 100px;
+  height: auto;
 }
