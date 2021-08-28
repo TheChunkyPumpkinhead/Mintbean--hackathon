@@ -3,7 +3,8 @@
     height: auto;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: center; 
+    min-height: 100vh;
     align-items: center;
     gap: 25px;
 }
@@ -22,4 +23,6 @@
     padding: 25px;
     border: solid;
     border-radius: 25px;
+    .content-wrap {
+    flex: 1;
 }
