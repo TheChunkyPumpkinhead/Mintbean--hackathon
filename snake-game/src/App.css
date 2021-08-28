@@ -12,17 +12,44 @@
 .instructions-cont{
     display: flex;
     flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 25px;
+    padding: 50px;
     gap: 25px;
 }
 
-.instruc-sec{
-    flex: 25%;
-    width: 100px;
-    height: 100px;
+.instruction-sec{
+    flex: 30%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
     padding: 25px;
     border: solid;
     border-radius: 25px;
-    .content-wrap {
     flex: 1;
+}
+
+.header-cont{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightcoral;
+}
+
+.link-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.logo{
+    margin-top: 25px;
+    width: 100px;
+    height: auto;
 }
