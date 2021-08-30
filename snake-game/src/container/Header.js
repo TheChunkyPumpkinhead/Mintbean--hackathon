@@ -10,9 +10,9 @@ function Header() {
     <div className='header-cont'>
       <img className='logo' src={snake} alt='snake logo' height='100'/>
       <div className='link-cont'>
-        <p>Description</p>
-        <p>Instructions</p>
-        <p>Engineers</p>
+        <p className='link' >Description</p>
+        <p className='link' >Instructions</p>
+        <p className='link' >Engineers</p>
         <button onClick={clickMe}>button</button>
       </div>
     </div>
