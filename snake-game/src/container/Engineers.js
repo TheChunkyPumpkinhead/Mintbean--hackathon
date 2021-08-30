@@ -6,7 +6,7 @@ import chrisPic from "../Pictures/myPic.jpg";
 const Description = () => {
   return (
     <div class="flexbox-container">
-      <div class="flexbox-text">
+      <div class="flexbox-item">
         <h3>Chris Campos</h3>
         <p>
           Howzit! I am excited to be in this extraordinary field and working
@@ -19,12 +19,13 @@ const Description = () => {
 
       <img class="item" src={chrisPic} alt="Example" />
 
-      <div class="flexbox-item flexbox-item-3">
+      <div class="flexbox-item">
         <h3>Jesus Israel Garcia</h3>
         <p>
           I just recently graduated from a Software Engineering Program at
           Flatiron School. This is the toughest program I have ever attended but
-          had the most unique/greatest experience and exposure I've ever had.
+          had the most unique/greatest experience and exposure I've ever had. Currently 
+          trying to increase my skills as a Developer.
         </p>
       </div>
 

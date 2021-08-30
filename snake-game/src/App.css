@@ -1,9 +1,14 @@
+
 .game-background {
   background: url(./Pictures/game.png);
   background-size: cover;
 }
 
 .app-container {
+  background-image: url('./Pictures/bluedots.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: auto;
   display: flex;
@@ -11,7 +16,6 @@
   justify-content: center;
   min-height: 100vh;
   align-items: center;
-  gap: 25px;
 }
 
 .instructions-cont {
@@ -31,8 +35,11 @@
   flex-flow: row;
   justify-content: center;
   align-items: center;
-  padding: 25px;
-  border: solid;
+  gap: 25px;
+  background-color: white;
+  padding: 25px; 
+  border: solid 10px;
+  border-color: lightcoral;
   border-radius: 25px;
   flex: 1;
 }
@@ -43,7 +50,7 @@
   flex-flow: column;
   align-items: center;
   justify-content: space-between;
-  background-color: lightcoral;
+  background-color: rgb(0, 132, 255);
 }
 
 .link-cont {
@@ -58,6 +65,22 @@
   width: 100px;
   height: auto;
 }
+
+.body-cont{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link{
+  padding: 15px;
+  border-radius: 25pc;
+}
+
+.link:hover{
+  background-color: lightcoral;
+
 .game-area {
   position: relative;
   margin: 50px auto;
