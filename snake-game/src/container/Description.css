@@ -1,7 +1,6 @@
 .flexbox-container {
   display: flex;
   justify-content: space-around;
-  background: url(../Pictures/game.png);
 }
 .flexbox-item {
   display: flex;

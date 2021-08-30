@@ -6,7 +6,7 @@ import "../App.css";
 
 const MainContainer = () => {
   return (
-    <div class="background">
+    <div class="game-background">
       <Description />
       <Instructions />
       <Engineers />

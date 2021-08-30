@@ -3,7 +3,7 @@ import "./container/Description.css";
 import Header from "./container/Header";
 import MainContainer from "./container/MainContainer";
 import Footer from "./container/Footer";
-// import game from "../Pictures/game.png";
+import Production from "./Game/Production.js";
 
 function App() {
   return (
@@ -12,6 +12,8 @@ function App() {
 
       <div className="content-wrap">
         <MainContainer />
+
+        <div className="game-container">{/* <Production/> */}</div>
       </div>
       <Footer />
     </div>
