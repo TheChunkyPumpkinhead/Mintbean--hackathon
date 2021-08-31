@@ -4,15 +4,20 @@ import Header from "./container/Header";
 import MainContainer from "./container/MainContainer";
 import Footer from "./container/Footer";
 import Production from "./Game/Production.js";
-import { useState } from "react";
+import { useState } from 'react';
 
 function App() {
-  const [state, setstate] = useState({ current: "home" });
+
+  const [state, setState] = useState({current: "home"});
   return (
     <div className="app-container">
-      <Header setState={setstate} state={state} />
+      <Header state={state} setState={setState} />
       <div className="content-wrap">
-        {state.current === "home" ? <MainContainer /> : <Production />}
+        {(state.current === "home")? 
+          <MainContainer state={state} setState={setState}/>
+        :
+          <Production/>
+        }
       </div>
       <Footer />
     </div>

@@ -23,6 +23,10 @@
   padding: 25px;
 }
 
+.logo{
+  margin-bottom: 25px;
+}
+
 .description-sec-1 {
   flex: 50%;
   height: auto;
@@ -36,4 +40,21 @@
 .video{
   width: 100%;
   height: auto;
+}
+
+.description-text{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-text{
+  background-color: lightcoral;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.play-text:hover{
+  background-color: rgb(0, 132, 255);
 }

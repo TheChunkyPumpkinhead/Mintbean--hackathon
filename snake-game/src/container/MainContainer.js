@@ -4,10 +4,10 @@ import { Instructions } from "./Instructions";
 import Engineers from "./Engineers";
 import "../App.css";
 
-const MainContainer = () => {
+const MainContainer = ({ state, setState }) => {
   return (
     <div class="body-cont">
-      <Description />
+      <Description state={state} setState={setState}/>
       <Instructions />
       <Engineers />
     </div>
