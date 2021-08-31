@@ -1,11 +1,10 @@
-
 .game-background {
   background: url(./Pictures/game.png);
   background-size: cover;
 }
 
 .app-container {
-  background-image: url('./Pictures/bluedots.jpg');
+  background-image: url("./Pictures/bluedots.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +37,7 @@
   align-items: center;
   gap: 25px;
   background-color: white;
-  padding: 25px; 
+  padding: 25px;
   border: solid 10px;
   border-color: lightcoral;
   border-radius: 25px;
@@ -67,19 +66,19 @@
   height: auto;
 }
 
-.body-cont{
+.body-cont {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
 
-.link{
+.link {
   padding: 15px;
   border-radius: 25pc;
 }
 
-.link:hover{
+.link:hover {
   background-color: lightcoral;
 }
 
@@ -89,7 +88,7 @@
   width: 600px;
   height: 600px;
   border: 2px solid #000;
-  background-color: lightskyblue;
+  background-color: rgb(202, 221, 238);
 }
 
 .snake-dot {

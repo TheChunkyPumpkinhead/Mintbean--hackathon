@@ -1,5 +1,6 @@
 import React from "react";
-import snake from '../Pictures/snake.png'
+import snake from "../Pictures/snake.png";
+
 
 function Header({state, setState}) {
   
@@ -7,7 +8,6 @@ function Header({state, setState}) {
     e.preventDefault();
     setState({current: 'home'})
   }
-
   return (
     <div className='header-cont'>
       <img className='logo' src={snake} alt='snake logo' height='100'/> 
